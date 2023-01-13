@@ -8,8 +8,8 @@ const h1 = document.querySelector("h1");
 
 if (randomNumber1 > randomNumber2) {
     h1.innerHTML = "⛳️ Player 1 Wins";
-} else if(randomNumber1 < randomNumber2){
+    }else if(randomNumber1 < randomNumber2){
     h1.innerHTML = "Player 2 Wins ⛳️";
-} else if(randomNumber1 === randomNumber2){
+    }else if(randomNumber1 === randomNumber2){
     h1.innerHTML = "Draw!";
 }
